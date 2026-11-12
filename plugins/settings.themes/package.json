@@ -1,0 +1,7 @@
+﻿{
+	"name": "@Violytra/themes-settings",
+	"devDependencies": {
+		"@Violytra/themes-api": "workspace:*"
+	}
+}
+

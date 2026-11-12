@@ -1,0 +1,29 @@
+﻿{
+	"format": 1,
+	"id": "violytra.settings.themes",
+	"name": "Themes",
+	"description": "Color themes, font packs, icon packs, and emoji packs.",
+	"author": "Violytra",
+	"contributors": [
+		"Palm <629368283354628116> (https://github.com/sponsors/PalmDevs \"Donations\") (https://palmdevs.me \"Website\") (https://github.com/PalmDevs \"GitHub\")"
+	],
+	"icon": "PaintPaletteIcon",
+	"version": "1.0.0",
+	"dependencies": {
+		"violytra.api": {
+			"version": ">=1 <2"
+		},
+		"discord": {
+			"version": "*"
+		},
+		"violytra.settings": {},
+		"violytra.api.themes": {
+			"version": ">=1 <2"
+		},
+		"violytra.settings.plugins": {}
+	},
+	"dist": {
+		"script": "index.js"
+	}
+}
+
