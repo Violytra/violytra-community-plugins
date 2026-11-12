@@ -1,6 +1,6 @@
 import { getAssetIdByName } from '@valenced/assets'
-import { TableRowAssetIcon } from '@Violytra/components'
-import Page from '@Violytra/components/Page'
+import { TableRowAssetIcon } from '@valenced/components'
+import Page from '@valenced/components/Page'
 import { Design } from '@valenced/discord/design'
 import { ReactNavigationNative } from '@valenced/externals/react-navigation'
 import { lookupGeneratedIconComponent } from '@valenced/utils/discord'

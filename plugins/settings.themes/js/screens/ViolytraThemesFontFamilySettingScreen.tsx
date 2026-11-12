@@ -1,4 +1,4 @@
-import Page from '@Violytra/components/Page'
+import Page from '@valenced/components/Page'
 import { useLayoutEffect } from 'react'
 import { OptionList } from '../components/OptionList'
 import { useFontFamilySections } from '../utils/fonts'

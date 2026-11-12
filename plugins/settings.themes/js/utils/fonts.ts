@@ -3,7 +3,7 @@
 import { useMemo } from 'react'
 import { useStore } from 'zustand/react'
 import { themesInternal } from '..'
-import type { FontRole } from '@Violytra/themes-api/types'
+import type { FontRole } from '@violytra/themes-api/types'
 import type { OptionEntry, Section } from './kinds'
 
 const {

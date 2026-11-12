@@ -1,4 +1,4 @@
-import TableRowAssetIcon from '@Violytra/components/TableRowAssetIcon'
+import TableRowAssetIcon from '@valenced/components/TableRowAssetIcon'
 import { RouteNames, Setting } from '../constants'
 import * as ViolytraThemesSettingScreen from '../screens/ViolytraThemesSettingScreen'
 import type { SettingsItem } from '@valenced/discord/modules/settings'

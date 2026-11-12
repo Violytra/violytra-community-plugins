@@ -1,4 +1,4 @@
-import Page from '@Violytra/components/Page'
+import Page from '@valenced/components/Page'
 import { Design } from '@valenced/discord/design'
 import { useLayoutEffect } from 'react'
 import { ScrollView, StyleSheet } from 'react-native'

@@ -1,5 +1,5 @@
 import { getAssetIdByName } from '@valenced/assets'
-import Page from '@Violytra/components/Page'
+import Page from '@valenced/components/Page'
 import { Design } from '@valenced/discord/design'
 import { useLayoutEffect } from 'react'
 import { OptionList } from '../components/OptionList'
