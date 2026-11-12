@@ -17,6 +17,10 @@
 		},
 		"discord": {
 			"version": ">=352.2"
+		},
+		"valenced.api": {
+			"version": ">=1 <2",
+			"optional": true
 		}
 	},
 	"dist": {
@@ -27,4 +31,3 @@
 		}
 	}
 }
-

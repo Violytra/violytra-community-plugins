@@ -20,10 +20,13 @@
 		"violytra.api.themes": {
 			"version": ">=1 <2"
 		},
-		"violytra.settings.plugins": {}
+		"violytra.settings.plugins": {},
+		"valenced.api": {
+			"version": ">=1 <2",
+			"optional": true
+		}
 	},
 	"dist": {
 		"script": "index.js"
 	}
 }
-
