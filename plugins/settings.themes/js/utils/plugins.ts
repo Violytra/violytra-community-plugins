@@ -1,4 +1,4 @@
-﻿import manifest from '../../manifest.json' with { type: 'json' }
+import manifest from '../../manifest.json' with { type: 'json' }
 import type { PluginMatch } from '@Violytra/types/plugins/settings.plugins'
 
 const ThemesApiId = 'violytra.api.themes'

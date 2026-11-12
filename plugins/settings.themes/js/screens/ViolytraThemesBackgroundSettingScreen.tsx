@@ -1,4 +1,4 @@
-﻿import Page from '@Violytra/components/Page'
+import Page from '@Violytra/components/Page'
 import { Design } from '@Violytra/discord/design'
 import { useEffect, useLayoutEffect, useState } from 'react'
 import { ScrollView, StyleSheet, TurboModuleRegistry } from 'react-native'

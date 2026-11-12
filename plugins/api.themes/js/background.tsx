@@ -1,4 +1,4 @@
-﻿import { Stores } from '@Violytra/discord/flux'
+import { Stores } from '@Violytra/discord/flux'
 import { getModules } from '@Violytra/modules/finders'
 import { withProps } from '@Violytra/modules/finders/filters'
 import { instead } from '@Violytra/patcher'

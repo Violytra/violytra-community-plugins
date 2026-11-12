@@ -1,3 +1,3 @@
-﻿# Violytra Community Plugins
+# Violytra Community Plugins
 
 Plugin repository for Violytra.

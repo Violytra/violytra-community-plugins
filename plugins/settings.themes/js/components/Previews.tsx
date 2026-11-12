@@ -1,4 +1,4 @@
-﻿import { Tokens } from '@Violytra/discord/common/tokens'
+import { Tokens } from '@Violytra/discord/common/tokens'
 import { Design } from '@Violytra/discord/design'
 import { useEffect, useMemo, useState } from 'react'
 import { Image, Text as RNText, StyleSheet, View } from 'react-native'

@@ -1,4 +1,4 @@
-﻿import type { EntryKind } from '@Violytra/themes-api/store'
+import type { EntryKind } from '@Violytra/themes-api/store'
 import type { FontRole } from '@Violytra/themes-api/types'
 
 export interface KindRouteParams {

@@ -1,4 +1,4 @@
-﻿// Individual font family selections for granular font management pages.
+// Individual font family selections for granular font management pages.
 
 import { useMemo } from 'react'
 import { useStore } from 'zustand/react'

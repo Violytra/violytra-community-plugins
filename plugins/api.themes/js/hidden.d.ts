@@ -1,4 +1,4 @@
-﻿import type { Plugin } from '@Violytra/plugins/types'
+import type { Plugin } from '@Violytra/plugins/types'
 import type * as store from './store'
 
 declare module '@Violytra/plugins/types' {

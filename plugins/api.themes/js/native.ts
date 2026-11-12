@@ -1,4 +1,4 @@
-﻿import {
+import {
 	callNativeMethod,
 	callNativeMethodSync,
 } from '@Violytra/modules/native'

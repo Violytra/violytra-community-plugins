@@ -1,4 +1,4 @@
-﻿import {
+import {
 	addAssetOverride,
 	getAssetsByName,
 	removeAssetOverride,

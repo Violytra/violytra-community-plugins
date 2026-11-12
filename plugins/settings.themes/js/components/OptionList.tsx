@@ -1,4 +1,4 @@
-﻿import { getAssetIdByName } from '@Violytra/assets'
+import { getAssetIdByName } from '@Violytra/assets'
 import { Design } from '@Violytra/discord/design'
 import { ReactNavigationNative } from '@Violytra/externals/react-navigation'
 import { FlatList, StyleSheet } from 'react-native'

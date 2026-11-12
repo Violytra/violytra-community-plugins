@@ -1,4 +1,4 @@
-﻿import { getAssetIdByName } from '@Violytra/assets'
+import { getAssetIdByName } from '@Violytra/assets'
 import { TableRowAssetIcon } from '@Violytra/components'
 import Page from '@Violytra/components/Page'
 import { Design } from '@Violytra/discord/design'

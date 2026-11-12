@@ -1,4 +1,4 @@
-﻿import { patchBackgrounds } from './background'
+import { patchBackgrounds } from './background'
 import { patchColorTokens, patchThemeContext } from './colors'
 import * as store from './store'
 

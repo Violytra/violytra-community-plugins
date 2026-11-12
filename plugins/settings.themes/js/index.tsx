@@ -1,4 +1,4 @@
-﻿/// <reference types="@Violytra/themes-api/hidden" />
+/// <reference types="@Violytra/themes-api/hidden" />
 /// <reference types="@Violytra/types/plugins/settings.plugins" />
 
 import { ToastActionCreators } from '@Violytra/discord/actions'

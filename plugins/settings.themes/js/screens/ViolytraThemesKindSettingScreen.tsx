@@ -1,4 +1,4 @@
-﻿import { getAssetIdByName } from '@Violytra/assets'
+import { getAssetIdByName } from '@Violytra/assets'
 import Page from '@Violytra/components/Page'
 import { Design } from '@Violytra/discord/design'
 import { useLayoutEffect } from 'react'

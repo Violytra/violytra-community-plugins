@@ -1,4 +1,4 @@
-﻿import { getModules } from '@Violytra/modules/finders'
+import { getModules } from '@Violytra/modules/finders'
 import { withProps } from '@Violytra/modules/finders/filters'
 import { before, instead } from '@Violytra/patcher'
 import { useSyncExternalStore } from 'react'

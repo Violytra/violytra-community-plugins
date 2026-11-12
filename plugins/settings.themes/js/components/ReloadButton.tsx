@@ -1,4 +1,4 @@
-﻿import { Design } from '@Violytra/discord/design'
+import { Design } from '@Violytra/discord/design'
 import { reloadApp } from '@Violytra/modules/native/app'
 import { useReloadNeeded } from '../utils/reload'
 

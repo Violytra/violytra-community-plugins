@@ -1,4 +1,4 @@
-﻿import { pluginSettings } from '..'
+import { pluginSettings } from '..'
 import { isThemePlugin } from '../utils/plugins'
 
 /** Renders the Browse Plugins view filtered strictly to theme plugins. */

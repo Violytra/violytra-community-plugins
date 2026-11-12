@@ -1,4 +1,4 @@
-﻿// Visual hints for bento tiles, previewing the active option of each kind.
+// Visual hints for bento tiles, previewing the active option of each kind.
 
 import { getAssetIdByName } from '@Violytra/assets'
 import { Tokens } from '@Violytra/discord/common/tokens'

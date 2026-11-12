@@ -1,4 +1,4 @@
-﻿export const Setting = {
+export const Setting = {
 	ViolytraThemes: 'ViolytraThemes',
 	ViolytraThemesKind: 'ViolytraThemesKind',
 	ViolytraThemesGroup: 'ViolytraThemesGroup',

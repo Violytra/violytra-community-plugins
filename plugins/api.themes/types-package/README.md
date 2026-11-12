@@ -1,4 +1,4 @@
-﻿# Violytra Themes API types
+# Violytra Themes API types
 
 Types for the [Themes API](https://github.com/Violytra/violytra-community-plugins/tree/main/plugins/api.themes) plugin.
 

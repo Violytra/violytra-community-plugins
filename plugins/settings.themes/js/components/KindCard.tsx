@@ -1,4 +1,4 @@
-﻿import { getAssetIdByName } from '@Violytra/assets'
+import { getAssetIdByName } from '@Violytra/assets'
 import { Tokens } from '@Violytra/discord/common/tokens'
 import { Design } from '@Violytra/discord/design'
 import { Image, Pressable } from 'react-native'

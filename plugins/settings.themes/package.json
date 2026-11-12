@@ -1,4 +1,4 @@
-﻿{
+{
 	"name": "@violytra/themes-settings",
 	"devDependencies": {
 		"@violytra/themes-api": "workspace:*"

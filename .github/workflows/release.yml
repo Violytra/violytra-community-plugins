@@ -1,4 +1,4 @@
-﻿# A plugin is released when the published pool doesn't have `<id>@<version>.zip` for its manifest version.
+# A plugin is released when the published pool doesn't have `<id>@<version>.zip` for its manifest version.
 # The pool contains all relevant data. Git tags and GitHub releases are created for changelogs only.
 
 name: Release plugins

@@ -1,4 +1,4 @@
-﻿import { TableRowAssetIcon } from '@Violytra/components'
+import { TableRowAssetIcon } from '@Violytra/components'
 import { RouteNames, Setting } from '../constants'
 import * as ViolytraThemesBrowseSettingScreen from '../screens/ViolytraThemesBrowseSettingScreen'
 import type { SettingsItem } from '@Violytra/discord/modules/settings'

@@ -1,4 +1,4 @@
-﻿import Page from '@Violytra/components/Page'
+import Page from '@Violytra/components/Page'
 import { useLayoutEffect, useMemo } from 'react'
 import { useStore } from 'zustand/react'
 import { pluginSettings, themesInternal } from '..'

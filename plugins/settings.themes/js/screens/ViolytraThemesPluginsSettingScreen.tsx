@@ -1,4 +1,4 @@
-﻿import { pluginSettings } from '..'
+import { pluginSettings } from '..'
 import { RouteNames, Setting } from '../constants'
 import { isThemePlugin } from '../utils/plugins'
 

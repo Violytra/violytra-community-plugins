@@ -1,4 +1,4 @@
-﻿import {
+import {
 	addSettingsItemToSection,
 	refreshSettings,
 	registerSettingsItems,

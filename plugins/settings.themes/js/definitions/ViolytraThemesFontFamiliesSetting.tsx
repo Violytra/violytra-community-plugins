@@ -1,4 +1,4 @@
-﻿import { RouteNames, Setting } from '../constants'
+import { RouteNames, Setting } from '../constants'
 import * as ViolytraThemesFontFamiliesSettingScreen from '../screens/ViolytraThemesFontFamiliesSettingScreen'
 import type { SettingsItem } from '@Violytra/discord/modules/settings'
 
