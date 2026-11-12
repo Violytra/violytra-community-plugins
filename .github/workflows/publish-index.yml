@@ -1,4 +1,4 @@
-# Regenerates `index.json` from the artifacts already in the pool and commits it if it changed.
+﻿# Regenerates `index.json` from the artifacts already in the pool and commits it if it changed.
 #
 # Use it after editing `repo.config.json` channel overrides, or after deleting an artifact to unpublish it.
 # Automated releases are done regardless by the "Release plugins" workflow. This is for manual intervention only.
@@ -29,7 +29,7 @@ jobs:
       - uses: actions/checkout@v4
       - uses: oven-sh/setup-bun@v2
 
-      - run: bun install --frozen-lockfile
+      - run: bun install
 
       - name: Check out the published pool
         env:
