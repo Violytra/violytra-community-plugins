@@ -6,8 +6,8 @@ import android.graphics.drawable.BitmapDrawable
 import android.graphics.drawable.Drawable
 import android.net.Uri
 import de.robv.android.xposed.XC_MethodHook
-import app.violytra.Logger
-import app.violytra.xposed.api.DexFinder
+import app.valenced.Logger
+import app.valenced.xposed.api.DexFinder
 import org.luckypray.dexkit.wrap.DexMethod
 import java.io.File
 import java.util.Locale

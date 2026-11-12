@@ -5,11 +5,11 @@ package app.violytra.themes
 import android.app.AndroidAppHelper
 import android.net.Uri
 import de.robv.android.xposed.XC_MethodHook
-import app.violytra.bridge.asDelegate
-import app.violytra.plugins.PluginScope
-import app.violytra.plugins.plugin
-import app.violytra.xposed.api.registerNativeAsyncMethod
-import app.violytra.xposed.api.registerNativeMethod
+import app.valenced.bridge.asDelegate
+import app.valenced.plugins.PluginScope
+import app.valenced.plugins.plugin
+import app.valenced.xposed.api.registerNativeAsyncMethod
+import app.valenced.xposed.api.registerNativeMethod
 import org.json.JSONArray
 import org.json.JSONObject
 import java.io.File

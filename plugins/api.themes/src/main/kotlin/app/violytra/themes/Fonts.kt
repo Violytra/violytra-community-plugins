@@ -7,8 +7,8 @@ import android.graphics.fonts.FontFamily
 import android.graphics.fonts.FontStyle
 import android.os.Build
 import de.robv.android.xposed.XC_MethodHook
-import app.violytra.Logger
-import app.violytra.xposed.api.DexFinder
+import app.valenced.Logger
+import app.valenced.xposed.api.DexFinder
 import java.io.File
 import java.lang.reflect.Modifier
 import java.util.concurrent.ConcurrentHashMap

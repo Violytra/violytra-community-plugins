@@ -12,7 +12,7 @@ import android.graphics.fonts.FontFamily
 import android.os.Build
 import android.os.ParcelFileDescriptor
 import de.robv.android.xposed.XC_MethodHook
-import app.violytra.Logger
+import app.valenced.Logger
 import java.io.File
 import java.io.FileInputStream
 import java.util.concurrent.ConcurrentHashMap
