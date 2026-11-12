@@ -62,5 +62,3 @@ const index = {
 
 fs.writeFileSync(outFile, JSON.stringify(index, null, 2));
 console.log('Generated index with ' + Object.keys(plugins).length + ' plugins');
-EOF
-echo "created"
