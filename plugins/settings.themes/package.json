@@ -1,7 +1,7 @@
 ﻿{
-	"name": "@Violytra/themes-settings",
+	"name": "@violytra/themes-settings",
 	"devDependencies": {
-		"@Violytra/themes-api": "workspace:*"
+		"@violytra/themes-api": "workspace:*"
 	}
 }
 

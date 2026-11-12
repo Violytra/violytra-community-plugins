@@ -1,5 +1,5 @@
 ﻿{
-	"name": "@Violytra/themes-api",
+	"name": "@violytra/themes-api",
 	"scripts": {
 		"build:types": "bun scripts/build-types.ts"
 	},
