@@ -20,11 +20,7 @@
 		"violytra.api.themes": {
 			"version": ">=1 <2"
 		},
-		"violytra.settings.plugins": {},
-		"valenced.api": {
-			"version": ">=1 <2",
-			"optional": true
-		}
+		"violytra.settings.plugins": {}
 	},
 	"dist": {
 		"script": "index.js"
