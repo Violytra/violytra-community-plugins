@@ -20,6 +20,7 @@ val javaVer = libs.versions.javaVersion.get()
 val valencedApiDep = libs.valenced.api.get().toString()
 val xposedApiDep = libs.xposed.api.get().toString()
 val coroutinesDep = libs.kotlinx.coroutines.android.get().toString()
+val dexkitDep = libs.dexkit.get().toString()
 val androidLibraryPluginId = libs.plugins.android.library.get().pluginId
 
 // Gradle 9 removed Project.exec from task actions
@@ -163,7 +164,7 @@ configure(subprojects.filter { project -> pluginRoots.any { project.path.startsW
     pluginManager.apply(androidLibraryPluginId)
 
     extensions.configure<LibraryExtension> {
-        namespace = "valenced.plugin." + name.replace(Regex("[^A-Za-z0-9]"), "_")
+        namespace = if (project.path == ":plugins:api") "app.violytra.api" else "valenced.plugin." + name.replace(Regex("[^A-Za-z0-9]"), "_")
         compileSdk = compileSdkVer.toInt()
         defaultConfig { minSdk = minSdkVer.toInt() }
         compileOptions {
@@ -186,10 +187,17 @@ configure(subprojects.filter { project -> pluginRoots.any { project.path.startsW
     }
 
     dependencies {
-        // Provided at runtime by the host, so never bundled
-        add("compileOnly", valencedApiDep)
-        add("compileOnly", xposedApiDep)
-        add("compileOnly", coroutinesDep)
+        if (project.path == ":plugins:api") {
+            // The API module IS the API; it provides dexkit transitively
+            add("compileOnly", xposedApiDep)
+            add("compileOnly", coroutinesDep)
+            add("api", dexkitDep)
+        } else {
+            // Use the local Violytra API instead of Valenced's
+            add("compileOnly", project(":plugins:api"))
+            add("compileOnly", xposedApiDep)
+            add("compileOnly", coroutinesDep)
+        }
     }
 
     val androidExt = extensions.getByType<LibraryExtension>()

@@ -1,10 +1,10 @@
-﻿package app.violytra.themes
+package app.violytra.themes
 
 import android.content.Context
 import android.content.res.Resources
 import de.robv.android.xposed.XC_MethodHook
-import app.valenced.Logger
-import app.valenced.xposed.api.DexFinder
+import app.violytra.Logger
+import app.violytra.xposed.api.DexFinder
 import org.luckypray.dexkit.wrap.DexMethod
 import java.lang.reflect.Modifier
 import java.util.EnumMap

@@ -5,6 +5,7 @@ kotlin = "2.4.10"
 coroutines = "1.11.0"
 xposed = "82"
 valencedApi = "1.0.0"
+dexkit = "2.3.0"
 
 compileSdk = "36"
 minSdk = "24"
@@ -15,6 +16,7 @@ javaVersion = "25"
 kotlinx-coroutines-android = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-android", version.ref = "coroutines" }
 xposed-api = { module = "de.robv.android.xposed:api", version.ref = "xposed" }
 valenced-api = { module = "app.valenced:api", version.ref = "valencedApi" }
+dexkit = { module = "org.luckypray:dexkit", version.ref = "dexkit" }
 
 [plugins]
 android-library = { id = "com.android.library", version.ref = "agp" }
