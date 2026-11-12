@@ -1,12 +1,12 @@
-import { getAssetIdByName } from '@Violytra/assets'
-import { Tokens } from '@Violytra/discord/common/tokens'
-import { Design } from '@Violytra/discord/design'
+import { getAssetIdByName } from '@valenced/assets'
+import { Tokens } from '@valenced/discord/common/tokens'
+import { Design } from '@valenced/discord/design'
 import { Image, Pressable } from 'react-native'
 import { pluginSettings } from '..'
 import { Kinds, useActiveOption } from '../utils/kinds'
 import { HintCount, IconHints, useHintFontFamily } from './KindHints'
 import { ColorSwatches, EmojiPreview, PREVIEW_SPACING } from './Previews'
-import type { EntryKind } from '@Violytra/themes-api/store'
+import type { EntryKind } from '@violytra/themes-api/store'
 
 const { Card, Stack, Text, createStyles } = Design
 

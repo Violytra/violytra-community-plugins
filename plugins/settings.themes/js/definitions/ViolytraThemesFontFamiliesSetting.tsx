@@ -1,6 +1,6 @@
 import { RouteNames, Setting } from '../constants'
 import * as ViolytraThemesFontFamiliesSettingScreen from '../screens/ViolytraThemesFontFamiliesSettingScreen'
-import type { SettingsItem } from '@Violytra/discord/modules/settings'
+import type { SettingsItem } from '@valenced/discord/modules/settings'
 
 /** Displays all font families supplied by registered packs. Opened from Fonts page; omitted from main settings list. */
 const ViolytraThemesFontFamiliesSetting: SettingsItem = {

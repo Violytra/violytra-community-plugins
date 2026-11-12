@@ -1,5 +1,5 @@
-import { Design } from '@Violytra/discord/design'
-import { reloadApp } from '@Violytra/modules/native/app'
+import { Design } from '@valenced/discord/design'
+import { reloadApp } from '@valenced/modules/native/app'
 import { useReloadNeeded } from '../utils/reload'
 
 const { Button } = Design

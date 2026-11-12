@@ -1,12 +1,12 @@
 import Page from '@Violytra/components/Page'
-import { Design } from '@Violytra/discord/design'
+import { Design } from '@valenced/discord/design'
 import { useLayoutEffect } from 'react'
 import { ScrollView, StyleSheet } from 'react-native'
 import ReloadButton from '../components/ReloadButton'
 import { RouteNames, Setting } from '../constants'
 import { useFontFamilies } from '../utils/fonts'
 import { FontRoleLabels, FontRoles, useFontRolePickNames } from '../utils/kinds'
-import type { FontRole } from '@Violytra/themes-api/types'
+import type { FontRole } from '@violytra/themes-api/types'
 import type { FontFamilyRouteParams, KindRouteParams } from '../types'
 
 const { TableRow, TableRowGroup, Text } = Design

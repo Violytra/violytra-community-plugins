@@ -1,6 +1,6 @@
-import type { ThemesApi } from '@Violytra/themes-api/types'
+import type { ThemesApi } from '@violytra/themes-api/types'
 
-declare module '@Violytra/plugins/types' {
+declare module '@valenced/plugins/types' {
 	interface PreInitPluginApi<
 		O extends PluginApiExtensionsOptions = PluginApiExtensionsOptions,
 	> {

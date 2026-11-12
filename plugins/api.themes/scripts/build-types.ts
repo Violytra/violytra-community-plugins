@@ -31,7 +31,7 @@ await writeFile(
 	join(out, 'package.json'),
 	`${JSON.stringify(
 		{
-			name: '@Violytra/themes-api',
+			name: '@violytra/themes-api',
 			version: manifest.version,
 			description: manifest.description,
 			license: 'GPL-3.0',
@@ -41,7 +41,7 @@ await writeFile(
 				'./types': { types: './types.d.ts' },
 			},
 			peerDependencies: {
-				'@Violytra/types':
+				'@valenced/types':
 					'git+https://github.com/Violytra/violytra-types.git',
 			},
 		},

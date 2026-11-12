@@ -1,6 +1,6 @@
 import { RouteNames, Setting } from '../constants'
 import * as ViolytraThemesGroupSettingScreen from '../screens/ViolytraThemesGroupSettingScreen'
-import type { SettingsItem } from '@Violytra/discord/modules/settings'
+import type { SettingsItem } from '@valenced/discord/modules/settings'
 
 /** Complete option list for a single group. Opened from "See all"; omitted from main settings list. */
 const ViolytraThemesGroupSetting: SettingsItem = {

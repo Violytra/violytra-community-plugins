@@ -1,11 +1,11 @@
 import Page from '@Violytra/components/Page'
-import { Design } from '@Violytra/discord/design'
+import { Design } from '@valenced/discord/design'
 import { useEffect, useLayoutEffect, useState } from 'react'
 import { ScrollView, StyleSheet, TurboModuleRegistry } from 'react-native'
 import { useStore } from 'zustand/react'
 import { themesInternal } from '..'
 import { showErrorToast } from '../utils/toasts'
-import type { BackgroundSettings } from '@Violytra/themes-api/types'
+import type { BackgroundSettings } from '@violytra/themes-api/types'
 import type { TurboModule } from 'react-native'
 
 const {

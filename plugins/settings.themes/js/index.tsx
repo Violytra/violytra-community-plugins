@@ -1,14 +1,14 @@
-/// <reference types="@Violytra/themes-api/hidden" />
-/// <reference types="@Violytra/types/plugins/settings.plugins" />
+/// <reference types="@violytra/themes-api/hidden" />
+/// <reference types="@valenced/types/plugins/settings.plugins" />
 
-import { ToastActionCreators } from '@Violytra/discord/actions'
-import { Design } from '@Violytra/discord/design'
-import { onSettingsModulesLoaded } from '@Violytra/discord/modules/settings'
-import { ReactNavigationNative } from '@Violytra/externals/react-navigation'
-import { lookupGeneratedIconComponent } from '@Violytra/utils/discord'
+import { ToastActionCreators } from '@valenced/discord/actions'
+import { Design } from '@valenced/discord/design'
+import { onSettingsModulesLoaded } from '@valenced/discord/modules/settings'
+import { ReactNavigationNative } from '@valenced/externals/react-navigation'
+import { lookupGeneratedIconComponent } from '@valenced/utils/discord'
 import { RouteNames, Setting } from './constants'
 import { isThemePlugin } from './utils/plugins'
-import type { PluginApi, PreInitPluginApi } from '@Violytra/plugins/types'
+import type { PluginApi, PreInitPluginApi } from '@valenced/plugins/types'
 
 export let themesInternal: PreInitPluginApi['themesInternal']
 export let pluginSettings: PluginApi['pluginSettings']

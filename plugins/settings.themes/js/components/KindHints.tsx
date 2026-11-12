@@ -1,8 +1,8 @@
 // Visual hints for bento tiles, previewing the active option of each kind.
 
-import { getAssetIdByName } from '@Violytra/assets'
-import { Tokens } from '@Violytra/discord/common/tokens'
-import { Design } from '@Violytra/discord/design'
+import { getAssetIdByName } from '@valenced/assets'
+import { Tokens } from '@valenced/discord/common/tokens'
+import { Design } from '@valenced/discord/design'
 import { useMemo } from 'react'
 import { Image, StyleSheet } from 'react-native'
 import { themesInternal } from '..'

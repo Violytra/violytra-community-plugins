@@ -1,10 +1,10 @@
-import { Tokens } from '@Violytra/discord/common/tokens'
-import { Design } from '@Violytra/discord/design'
+import { Tokens } from '@valenced/discord/common/tokens'
+import { Design } from '@valenced/discord/design'
 import { useEffect, useMemo, useState } from 'react'
 import { Image, Text as RNText, StyleSheet, View } from 'react-native'
 import { themesInternal } from '..'
-import type { EntryKind } from '@Violytra/themes-api/store'
-import type { ThemeBase } from '@Violytra/themes-api/types'
+import type { EntryKind } from '@violytra/themes-api/store'
+import type { ThemeBase } from '@violytra/themes-api/types'
 import type { ReactNode } from 'react'
 import type { OptionEntry } from '../utils/kinds'
 
@@ -24,7 +24,7 @@ interface ThemeContext {
 	theme: string
 }
 
-// Untyped in @Violytra/types
+// Untyped in @valenced/types
 const { getSemanticColorContextFromThemeContext, useThemeContext } =
 	Design as unknown as {
 		useThemeContext(): ThemeContext

@@ -1,6 +1,6 @@
-import { getAssetIdByName } from '@Violytra/assets'
+import { getAssetIdByName } from '@valenced/assets'
 import Page from '@Violytra/components/Page'
-import { Design } from '@Violytra/discord/design'
+import { Design } from '@valenced/discord/design'
 import { useLayoutEffect } from 'react'
 import { OptionList } from '../components/OptionList'
 import { RouteNames, Setting } from '../constants'

@@ -1,5 +1,5 @@
 import manifest from '../../manifest.json' with { type: 'json' }
-import type { PluginMatch } from '@Violytra/types/plugins/settings.plugins'
+import type { PluginMatch } from '@valenced/types/plugins/settings.plugins'
 
 const ThemesApiId = 'violytra.api.themes'
 

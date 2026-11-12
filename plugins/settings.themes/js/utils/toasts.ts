@@ -1,4 +1,4 @@
-import { ToastActionCreators } from '@Violytra/discord/actions'
+import { ToastActionCreators } from '@valenced/discord/actions'
 
 export function showErrorToast(e: unknown) {
 	ToastActionCreators.open('Violytra_THEMES_ERROR', {

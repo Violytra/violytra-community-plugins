@@ -1,5 +1,5 @@
-import { getAssetIdByName } from '@Violytra/assets'
-import { Design } from '@Violytra/discord/design'
+import { getAssetIdByName } from '@valenced/assets'
+import { Design } from '@valenced/discord/design'
 import { pluginSettings } from '..'
 import { showErrorToast } from '../utils/toasts'
 
