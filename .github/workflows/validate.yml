@@ -1,4 +1,4 @@
-# PR build validation
+﻿# PR build validation
 
 name: Validate
 
@@ -42,7 +42,7 @@ jobs:
         run: |
           bun run generate-index \
             --dist build/dist \
-            --base-url https://valenced.local \
+            --base-url https://violytra.local \
             --out /tmp/index.json
           cat /tmp/index.json
 
