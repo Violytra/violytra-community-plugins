@@ -16,7 +16,7 @@
       },
       "versions": {
         "1.0.0": {
-          "url": "http://plugins.violytra.cc.cd/pool/violytra.settings.themes@1.0.0.zip",
+          "url": "https://plugins.violytra.cc.cd/pool/violytra.settings.themes@1.0.0.zip",
           "sha256": "7e1068ba891a949edb264a05a1627039dd02bd77fb9a726a4fa869d49493496a",
           "size": 9476,
           "dependencies": {
@@ -50,7 +50,7 @@
       },
       "versions": {
         "1.0.1": {
-          "url": "http://plugins.violytra.cc.cd/pool/violytra.api.themes@1.0.1.zip",
+          "url": "https://plugins.violytra.cc.cd/pool/violytra.api.themes@1.0.1.zip",
           "sha256": "4948132721264ec0a300cd239aa0d677ff871b816b6fb53fb26b3edd9e82e423",
           "size": 65378,
           "dependencies": {
