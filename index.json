@@ -9,7 +9,7 @@
                                                      "author":  "Violytra",
                                                      "icon":  "PaintPaletteIcon",
                                                      "channels":  {
-                                                                      "latest":  "1.0.1"
+                                                                      "latest":  "1.0.2"
                                                                   },
                                                      "versions":  {
                                                                       "1.0.0":  {
@@ -38,6 +38,28 @@
                                                                                     "url":  "https://plugins.violytra.cc.cd/pool/violytra.settings.themes@1.0.1.zip",
                                                                                     "sha256":  "59354c2527936771ba547c4dd18b77e0b41613a38f561603a0b09429a9bf1cab",
                                                                                     "size":  9527,
+                                                                                    "dependencies":  {
+                                                                                                         "violytra.api":  {
+                                                                                                                              "version":  "\u003e=1 \u003c2"
+                                                                                                                          },
+                                                                                                         "discord":  {
+                                                                                                                         "version":  "*"
+                                                                                                                     },
+                                                                                                         "violytra.settings":  {
+
+                                                                                                                               },
+                                                                                                         "violytra.api.themes":  {
+                                                                                                                                     "version":  "\u003e=1 \u003c2"
+                                                                                                                                 },
+                                                                                                         "violytra.settings.plugins":  {
+
+                                                                                                                                       }
+                                                                                                     }
+                                                                                },
+                                                                      "1.0.2":  {
+                                                                                    "url":  "https://plugins.violytra.cc.cd/pool/violytra.settings.themes@1.0.2.zip",
+                                                                                    "sha256":  "6662ce9e2acfd5254ed12f03f3f30df4ddc228fbab8bcee78b087a04f6f4be09",
+                                                                                    "size":  9533,
                                                                                     "dependencies":  {
                                                                                                          "violytra.api":  {
                                                                                                                               "version":  "\u003e=1 \u003c2"
