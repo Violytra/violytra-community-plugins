@@ -58,8 +58,8 @@
                                                                                 },
                                                                       "1.0.2":  {
                                                                                     "url":  "https://plugins.violytra.cc.cd/pool/violytra.settings.themes@1.0.2.zip",
-                                                                                    "sha256":  "6662ce9e2acfd5254ed12f03f3f30df4ddc228fbab8bcee78b087a04f6f4be09",
-                                                                                    "size":  9533,
+                                                                                    "sha256":  "b27d7b777ac81741735c229a92a72e018152c37572d148073b0686dca656cb82",
+                                                                                    "size":  9524,
                                                                                     "dependencies":  {
                                                                                                          "violytra.api":  {
                                                                                                                               "version":  "\u003e=1 \u003c2"
@@ -104,8 +104,8 @@
                                                                            },
                                                                  "1.0.2":  {
                                                                                "url":  "https://plugins.violytra.cc.cd/pool/violytra.api.themes@1.0.2.zip",
-                                                                               "sha256":  "e9b6ddb64d2398a098c71aef59ddebcb135d57f55703555bdccbed335039e0c6",
-                                                                               "size":  65428,
+                                                                               "sha256":  "d8290c5b334c60e59f6851edc78f3afc8c716156a08df007dbc188036f3f3d8d",
+                                                                               "size":  65419,
                                                                                "dependencies":  {
                                                                                                     "violytra.api":  {
                                                                                                                          "version":  "\u003e=1 \u003c2"
