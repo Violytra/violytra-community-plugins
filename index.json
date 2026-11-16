@@ -1,68 +1,107 @@
-{
-  "format": 1,
-  "name": "Violytra Community Plugins",
-  "description": "Community plugins for Violytra.",
-  "plugins": {
-    "violytra.settings.themes": {
-      "name": "Themes",
-      "description": "Color themes, font packs, icon packs, and emoji packs.",
-      "author": "Violytra",
-      "contributors": [
-        "Palm <629368283354628116> (https://github.com/sponsors/PalmDevs \"Donations\") (https://palmdevs.me \"Website\") (https://github.com/PalmDevs \"GitHub\")"
-      ],
-      "icon": "PaintPaletteIcon",
-      "channels": {
-        "latest": "1.0.0"
-      },
-      "versions": {
-        "1.0.0": {
-          "url": "https://plugins.violytra.cc.cd/pool/violytra.settings.themes@1.0.0.zip",
-          "sha256": "7e1068ba891a949edb264a05a1627039dd02bd77fb9a726a4fa869d49493496a",
-          "size": 9476,
-          "dependencies": {
-            "violytra.api": {
-              "version": ">=1 <2"
-            },
-            "discord": {
-              "version": "*"
-            },
-            "violytra.settings": {},
-            "violytra.api.themes": {
-              "version": ">=1 <2"
-            },
-            "violytra.settings.plugins": {}
-          }
-        }
-      }
-    },
-    "violytra.api.themes": {
-      "name": "Themes API",
-      "description": "Lets theme plugins provide color themes, font packs, icon packs, and emoji packs.",
-      "author": "Violytra",
-      "contributors": [
-        "Palm <629368283354628116> (https://github.com/sponsors/PalmDevs \"Donations\") (https://palmdevs.me \"Website\") (https://github.com/PalmDevs \"GitHub\")",
-        "Ushie <399862294143696897> (https://github.com/Ushie \"GitHub\")",
-        "cocobo1 <767650984175992833> (https://github.com/C0C0B01 \"GitHub\")"
-      ],
-      "icon": "PaintPaletteIcon",
-      "channels": {
-        "latest": "1.0.1"
-      },
-      "versions": {
-        "1.0.1": {
-          "url": "https://plugins.violytra.cc.cd/pool/violytra.api.themes@1.0.1.zip",
-          "sha256": "4948132721264ec0a300cd239aa0d677ff871b816b6fb53fb26b3edd9e82e423",
-          "size": 65378,
-          "dependencies": {
-            "violytra.api": {
-              "version": ">=1 <2"
-            },
-            "discord": {
-              "version": ">=352.2"
-            }
-          }
-        }
-      }
-    }
-  }
+﻿{
+    "format":  1,
+    "name":  "Violytra Community Plugins",
+    "description":  "Community plugins for Violytra.",
+    "plugins":  {
+                    "violytra.settings.themes":  {
+                                                     "name":  "Themes",
+                                                     "description":  "Color themes, font packs, icon packs, and emoji packs.",
+                                                     "author":  "Violytra",
+                                                     "contributors":  [
+                                                                          "Palm \u003c629368283354628116\u003e (https://github.com/sponsors/PalmDevs \"Donations\") (https://palmdevs.me \"Website\") (https://github.com/PalmDevs \"GitHub\")"
+                                                                      ],
+                                                     "icon":  "PaintPaletteIcon",
+                                                     "channels":  {
+                                                                      "latest":  "1.0.1"
+                                                                  },
+                                                     "versions":  {
+                                                                      "1.0.0":  {
+                                                                                    "url":  "https://plugins.violytra.cc.cd/pool/violytra.settings.themes@1.0.0.zip",
+                                                                                    "sha256":  "7e1068ba891a949edb264a05a1627039dd02bd77fb9a726a4fa869d49493496a",
+                                                                                    "size":  9476,
+                                                                                    "dependencies":  {
+                                                                                                         "violytra.api":  {
+                                                                                                                              "version":  "\u003e=1 \u003c2"
+                                                                                                                          },
+                                                                                                         "discord":  {
+                                                                                                                         "version":  "*"
+                                                                                                                     },
+                                                                                                         "violytra.settings":  {
+
+                                                                                                                               },
+                                                                                                         "violytra.api.themes":  {
+                                                                                                                                     "version":  "\u003e=1 \u003c2"
+                                                                                                                                 },
+                                                                                                         "violytra.settings.plugins":  {
+
+                                                                                                                                       }
+                                                                                                     }
+                                                                                },
+                                                                      "1.0.1":  {
+                                                                                    "url":  "https://plugins.violytra.cc.cd/pool/violytra.settings.themes@1.0.1.zip",
+                                                                                    "sha256":  "59354c2527936771ba547c4dd18b77e0b41613a38f561603a0b09429a9bf1cab",
+                                                                                    "size":  9527,
+                                                                                    "dependencies":  {
+                                                                                                         "violytra.api":  {
+                                                                                                                              "version":  "\u003e=1 \u003c2"
+                                                                                                                          },
+                                                                                                         "discord":  {
+                                                                                                                         "version":  "*"
+                                                                                                                     },
+                                                                                                         "violytra.settings":  {
+
+                                                                                                                               },
+                                                                                                         "violytra.api.themes":  {
+                                                                                                                                     "version":  "\u003e=1 \u003c2"
+                                                                                                                                 },
+                                                                                                         "violytra.settings.plugins":  {
+
+                                                                                                                                       }
+                                                                                                     }
+                                                                                }
+                                                                  }
+                                                 },
+                    "violytra.api.themes":  {
+                                                "name":  "Themes API",
+                                                "description":  "Lets theme plugins provide color themes, font packs, icon packs, and emoji packs.",
+                                                "author":  "Violytra",
+                                                "contributors":  [
+                                                                     "Palm \u003c629368283354628116\u003e (https://github.com/sponsors/PalmDevs \"Donations\") (https://palmdevs.me \"Website\") (https://github.com/PalmDevs \"GitHub\")",
+                                                                     "Ushie \u003c399862294143696897\u003e (https://github.com/Ushie \"GitHub\")",
+                                                                     "cocobo1 \u003c767650984175992833\u003e (https://github.com/C0C0B01 \"GitHub\")"
+                                                                 ],
+                                                "icon":  "PaintPaletteIcon",
+                                                "channels":  {
+                                                                 "latest":  "1.0.2"
+                                                             },
+                                                "versions":  {
+                                                                 "1.0.1":  {
+                                                                               "url":  "https://plugins.violytra.cc.cd/pool/violytra.api.themes@1.0.1.zip",
+                                                                               "sha256":  "4948132721264ec0a300cd239aa0d677ff871b816b6fb53fb26b3edd9e82e423",
+                                                                               "size":  65378,
+                                                                               "dependencies":  {
+                                                                                                    "violytra.api":  {
+                                                                                                                         "version":  "\u003e=1 \u003c2"
+                                                                                                                     },
+                                                                                                    "discord":  {
+                                                                                                                    "version":  "\u003e=352.2"
+                                                                                                                }
+                                                                                                }
+                                                                           },
+                                                                 "1.0.2":  {
+                                                                               "url":  "https://plugins.violytra.cc.cd/pool/violytra.api.themes@1.0.2.zip",
+                                                                               "sha256":  "e9b6ddb64d2398a098c71aef59ddebcb135d57f55703555bdccbed335039e0c6",
+                                                                               "size":  65428,
+                                                                               "dependencies":  {
+                                                                                                    "violytra.api":  {
+                                                                                                                         "version":  "\u003e=1 \u003c2"
+                                                                                                                     },
+                                                                                                    "discord":  {
+                                                                                                                    "version":  "\u003e=352.2"
+                                                                                                                }
+                                                                                                }
+                                                                           }
+                                                             }
+                                            }
+                }
 }
