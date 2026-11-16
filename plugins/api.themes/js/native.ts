@@ -1,7 +1,7 @@
 import {
 	callNativeMethod,
 	callNativeMethodSync,
-} from '@valenced/modules/native'
+} from '@violytra/modules/native'
 import type {
 	BackgroundSettings,
 	ColorsSelection,
@@ -77,7 +77,7 @@ export async function readPreviewEmoji(
 	)
 }
 
-declare module '@valenced/modules/native' {
+declare module '@violytra/modules/native' {
 	interface NativeMethods {
 		'violytra.themes.getState': [[], string]
 		'violytra.themes.setColors': [[json: string | null], null]

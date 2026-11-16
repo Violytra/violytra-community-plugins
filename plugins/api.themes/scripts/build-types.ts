@@ -41,7 +41,7 @@ await writeFile(
 				'./types': { types: './types.d.ts' },
 			},
 			peerDependencies: {
-				'@valenced/types':
+				'@violytra/types':
 					'git+https://github.com/Violytra/violytra-types.git',
 			},
 		},

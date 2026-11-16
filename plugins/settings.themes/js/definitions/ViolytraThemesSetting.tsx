@@ -1,7 +1,7 @@
-import TableRowAssetIcon from '@valenced/components/TableRowAssetIcon'
+import TableRowAssetIcon from '@violytra/components/TableRowAssetIcon'
 import { RouteNames, Setting } from '../constants'
 import * as ViolytraThemesSettingScreen from '../screens/ViolytraThemesSettingScreen'
-import type { SettingsItem } from '@valenced/discord/modules/settings'
+import type { SettingsItem } from '@violytra/discord/modules/settings'
 
 const ViolytraThemesSetting: SettingsItem = {
 	parent: null,

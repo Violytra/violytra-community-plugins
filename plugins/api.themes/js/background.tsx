@@ -1,8 +1,8 @@
-import { Stores } from '@valenced/discord/flux'
-import { getModules } from '@valenced/modules/finders'
-import { withProps } from '@valenced/modules/finders/filters'
-import { instead } from '@valenced/patcher'
-import { noop } from '@valenced/utils/callback'
+import { Stores } from '@violytra/discord/flux'
+import { getModules } from '@violytra/modules/finders'
+import { withProps } from '@violytra/modules/finders/filters'
+import { instead } from '@violytra/patcher'
+import { noop } from '@violytra/utils/callback'
 import { useSyncExternalStore } from 'react'
 import { Image, StyleSheet, useWindowDimensions, View } from 'react-native'
 import {
@@ -12,7 +12,7 @@ import {
 	SurfaceColor,
 } from './colors'
 import { activeBackgroundOf, themesStore } from './store'
-import type { PreInitPluginApi } from '@valenced/plugins/types'
+import type { PreInitPluginApi } from '@violytra/plugins/types'
 import type { FunctionComponent } from 'react'
 import type { StyleProp, ViewStyle } from 'react-native'
 import type { ActiveBackground } from './store'

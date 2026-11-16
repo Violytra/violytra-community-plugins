@@ -1,8 +1,8 @@
-import { getModules } from '@valenced/modules/finders'
-import { withProps } from '@valenced/modules/finders/filters'
-import { before, instead } from '@valenced/patcher'
+import { getModules } from '@violytra/modules/finders'
+import { withProps } from '@violytra/modules/finders/filters'
+import { before, instead } from '@violytra/patcher'
 import { useSyncExternalStore } from 'react'
-import type { PreInitPluginApi } from '@valenced/plugins/types'
+import type { PreInitPluginApi } from '@violytra/plugins/types'
 import type { FC } from 'react'
 import type { DiscordColors, ThemeBase, ThemeColors } from './types'
 

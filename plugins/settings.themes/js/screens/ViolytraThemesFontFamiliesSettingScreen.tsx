@@ -1,5 +1,5 @@
-import Page from '@valenced/components/Page'
-import { Design } from '@valenced/discord/design'
+import Page from '@violytra/components/Page'
+import { Design } from '@violytra/discord/design'
 import { useLayoutEffect } from 'react'
 import { ScrollView, StyleSheet } from 'react-native'
 import ReloadButton from '../components/ReloadButton'

@@ -2,8 +2,8 @@ import {
 	addAssetOverride,
 	getAssetsByName,
 	removeAssetOverride,
-} from '@valenced/assets'
-import { pluginDistDirFor } from '@valenced/plugins/constants'
+} from '@violytra/assets'
+import { pluginDistDirFor } from '@violytra/plugins/constants'
 import { createStore } from 'zustand/vanilla'
 import {
 	discordColors,
@@ -21,8 +21,8 @@ import {
 	writeFontsSelection,
 	writeIconsSelection,
 } from './native'
-import type { PackagerAsset } from '@valenced/assets/types'
-import type { PluginManifest } from '@valenced/plugins/types'
+import type { PackagerAsset } from '@violytra/assets/types'
+import type { PluginManifest } from '@violytra/plugins/types'
 import type {
 	BackgroundSettings,
 	ColorsSelection,

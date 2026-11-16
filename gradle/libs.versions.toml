@@ -4,7 +4,7 @@ kotlin = "2.4.10"
 
 coroutines = "1.11.0"
 xposed = "82"
-valencedApi = "1.0.0"
+violytraApi = "1.0.0"
 dexkit = "2.3.0"
 
 compileSdk = "36"
@@ -15,7 +15,7 @@ javaVersion = "25"
 [libraries]
 kotlinx-coroutines-android = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-android", version.ref = "coroutines" }
 xposed-api = { module = "de.robv.android.xposed:api", version.ref = "xposed" }
-valenced-api = { module = "app.valenced:api", version.ref = "valencedApi" }
+violytra-api = { module = "app.violytra:api", version.ref = "violytraApi" }
 dexkit = { module = "org.luckypray:dexkit", version.ref = "dexkit" }
 
 [plugins]

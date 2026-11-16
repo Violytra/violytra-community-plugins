@@ -2,7 +2,7 @@ import {
 	addSettingsItemToSection,
 	refreshSettings,
 	registerSettingsItems,
-} from '@valenced/discord/modules/settings'
+} from '@violytra/discord/modules/settings'
 import { Setting } from './constants'
 import ViolytraThemesBackgroundSetting from './definitions/ViolytraThemesBackgroundSetting'
 import ViolytraThemesBrowseSetting from './definitions/ViolytraThemesBrowseSetting'

@@ -1,7 +1,7 @@
-import type { Plugin } from '@valenced/plugins/types'
+import type { Plugin } from '@violytra/plugins/types'
 import type * as store from './store'
 
-declare module '@valenced/plugins/types' {
+declare module '@violytra/plugins/types' {
 	interface PreInitPluginApi<
 		O extends PluginApiExtensionsOptions = PluginApiExtensionsOptions,
 	> {

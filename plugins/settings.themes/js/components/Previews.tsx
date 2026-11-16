@@ -1,5 +1,5 @@
-import { Tokens } from '@valenced/discord/common/tokens'
-import { Design } from '@valenced/discord/design'
+import { Tokens } from '@violytra/discord/common/tokens'
+import { Design } from '@violytra/discord/design'
 import { useEffect, useMemo, useState } from 'react'
 import { Image, Text as RNText, StyleSheet, View } from 'react-native'
 import { themesInternal } from '..'
@@ -24,7 +24,7 @@ interface ThemeContext {
 	theme: string
 }
 
-// Untyped in @valenced/types
+// Untyped in @violytra/types
 const { getSemanticColorContextFromThemeContext, useThemeContext } =
 	Design as unknown as {
 		useThemeContext(): ThemeContext

@@ -1,5 +1,5 @@
-import Page from '@valenced/components/Page'
-import { Design } from '@valenced/discord/design'
+import Page from '@violytra/components/Page'
+import { Design } from '@violytra/discord/design'
 import { useEffect, useLayoutEffect, useState } from 'react'
 import { ScrollView, StyleSheet, TurboModuleRegistry } from 'react-native'
 import { useStore } from 'zustand/react'

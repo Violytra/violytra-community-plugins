@@ -17,7 +17,7 @@ plugins {
 val compileSdkVer = libs.versions.compileSdk.get()
 val minSdkVer = libs.versions.minSdk.get()
 val javaVer = libs.versions.javaVersion.get()
-val valencedApiDep = libs.valenced.api.get().toString()
+val violytraApiDep = libs.violytra.api.get().toString()
 val xposedApiDep = libs.xposed.api.get().toString()
 val coroutinesDep = libs.kotlinx.coroutines.android.get().toString()
 val dexkitDep = libs.dexkit.get().toString()
@@ -95,7 +95,7 @@ data class JsTool(val kind: String, val exe: File) {
         // Run its bin file directly.
             "deno" -> listOf(
                 exe.absolutePath, "run", "-A",
-                "node_modules/@valenced/plugin-cli/bin/valenced-plugin.js", "build",
+                "node_modules/@violytra/plugin-cli/bin/violytra-plugin.js", "build",
         ) + args
             else -> error("Unknown JS tool: $kind")
         }
@@ -164,7 +164,7 @@ configure(subprojects.filter { project -> pluginRoots.any { project.path.startsW
     pluginManager.apply(androidLibraryPluginId)
 
     extensions.configure<LibraryExtension> {
-        namespace = if (project.path == ":plugins:api") "app.violytra.api" else "valenced.plugin." + name.replace(Regex("[^A-Za-z0-9]"), "_")
+        namespace = if (project.path == ":plugins:api") "app.violytra.api" else "violytra.plugin." + name.replace(Regex("[^A-Za-z0-9]"), "_")
         compileSdk = compileSdkVer.toInt()
         defaultConfig { minSdk = minSdkVer.toInt() }
         compileOptions {
@@ -193,7 +193,7 @@ configure(subprojects.filter { project -> pluginRoots.any { project.path.startsW
             add("compileOnly", coroutinesDep)
             add("api", dexkitDep)
         } else {
-            // Use the local Violytra API instead of Valenced's
+            // Use the local Violytra API instead of Violytra's
             add("compileOnly", project(":plugins:api"))
             add("compileOnly", xposedApiDep)
             add("compileOnly", coroutinesDep)
@@ -205,7 +205,7 @@ configure(subprojects.filter { project -> pluginRoots.any { project.path.startsW
     val execOps = objects.newInstance<ExecOpsProvider>().execOps
 
     tasks.register("dexJar") {
-        group = "valenced"
+        group = "violytra"
         description = "Compiles this plugin into a DEX-containing JAR loadable by DexClassLoader."
         dependsOn("compileReleaseKotlin", "compileReleaseJavaWithJavac")
         mustRunAfter(cleanTasks)
@@ -274,14 +274,14 @@ configure(subprojects.filter { project -> pluginRoots.any { project.path.startsW
 // JS bundles (one task per plugin) and per-plugin packaging into build/dist/<id>@<version>.zip
 // ---------------------------------------------------------------------------------------------
 
-// Bundler is @valenced/plugin-cli. Lockfiles pinning its revision are inputs.
+// Bundler is @violytra/plugin-cli. Lockfiles pinning its revision are inputs.
 val jsConfigFiles = files(
     "package.json", "tsconfig.base.json", "biome.json",
     "bun.lock", "bun.lockb", "package-lock.json", "deno.lock",
 )
 
 val installJs = tasks.register("installJs") {
-    group = "valenced"
+    group = "violytra"
     description = "Installs the JS dependencies needed to build plugin bundles."
     mustRunAfter(cleanTasks)
 
@@ -304,8 +304,8 @@ val installJs = tasks.register("installJs") {
 }
 
 val buildJs = tasks.register("buildJs") {
-    group = "valenced"
-    description = "Builds every plugin's JS bundle via the valenced-plugin CLI."
+    group = "violytra"
+    description = "Builds every plugin's JS bundle via the violytra-plugin CLI."
 }
 
 // `-Pdev` builds unminified bundles with __DEV__ set, e.g. `./gradlew packageShikiCodeblocks -Pdev`.
@@ -318,8 +318,8 @@ fun taskSuffix(dirName: String): String =
 val buildJsTasks = pluginDefs.filter { it.scriptName != null }.associate { def ->
     val name = def.dir.name
     val task = tasks.register("buildJs${taskSuffix(name)}") {
-        group = "valenced"
-        description = "Builds the JS bundle of '${def.id}' via the valenced-plugin CLI."
+        group = "violytra"
+        description = "Builds the JS bundle of '${def.id}' via the violytra-plugin CLI."
         dependsOn(installJs)
     mustRunAfter(cleanTasks)
 
@@ -352,20 +352,20 @@ val buildJsTasks = pluginDefs.filter { it.scriptName != null }.associate { def -
 // Packaging always starts from an empty dist directory. Archive names only contain the
 // plugin id and version, so retaining a same-name archive would keep its old digest in the index.
 val cleanDist = tasks.register<Delete>("cleanDist") {
-    group = "valenced"
+    group = "violytra"
     description = "Deletes packaged plugin archives so their digests are regenerated."
     delete(layout.buildDirectory.dir("dist"))
     outputs.upToDateWhen { false }
 }
 
 val packageAllPlugins = tasks.register("packageAllPlugins") {
-    group = "valenced"
+    group = "violytra"
     description = "Builds and packages every plugin into build/dist/<id>@<version>.zip."
 }
 
 pluginDefs.forEach { (dir, id, version, jarName, scriptName) ->
     val pkg = tasks.register<Zip>("package${taskSuffix(dir.name)}") {
-        group = "valenced"
+        group = "violytra"
         description = "Packages '$id' into a distributable ZIP."
         dependsOn(cleanDist)
         buildJsTasks[dir]?.let { dependsOn(it) }

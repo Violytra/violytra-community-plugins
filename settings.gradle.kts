@@ -14,9 +14,9 @@ dependencyResolutionManagement {
         mavenCentral()
         // Xposed API (provided by the framework at runtime).
         maven(url = "https://api.xposed.info/")
-        // The Valenced plugin API is published to GitHub Packages.
+        // The Violytra plugin API is published to GitHub Packages.
         maven {
-            url = uri("https://maven.pkg.github.com/Valenced/valenced")
+            url = uri("https://maven.pkg.github.com/Violytra/violytra-mod")
             credentials(PasswordCredentials::class) {
                 username = providers.gradleProperty("GitHubPackagesUsername").orNull
                     ?: System.getenv("GITHUB_ACTOR")
