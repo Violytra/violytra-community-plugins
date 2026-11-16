@@ -25,7 +25,7 @@ export default function register() {
 		[Setting.ViolytraThemesBackground]: ViolytraThemesBackgroundSetting,
 	})
 	const removeFromSection = addSettingsItemToSection(
-		'Violytra',
+		'VIOLYTRA',
 		Setting.ViolytraThemes,
 		2,
 	)

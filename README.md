@@ -8,7 +8,7 @@ Plugin repository for Violytra.
 
 | Name | Description | Version |
 | --- | --- | --- |
-| [Themes](plugins/settings.themes) | Color themes, font packs, icon packs, and emoji packs. | 1.0.1 |
+| [Themes](plugins/settings.themes) | Color themes, font packs, icon packs, and emoji packs. | 1.0.2 |
 | [Themes API](plugins/api.themes) | Lets theme plugins provide color themes, font packs, icon packs, and emoji packs. | 1.0.2 |
 
 <!-- PLUGINS_TABLE_END -->

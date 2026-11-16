@@ -5,7 +5,7 @@
     "description":  "Color themes, font packs, icon packs, and emoji packs.",
     "author":  "Violytra",
     "icon":  "PaintPaletteIcon",
-    "version":  "1.0.1",
+    "version":  "1.0.2",
     "dependencies":  {
                          "violytra.api":  {
                                               "version":  "\u003e=1 \u003c2"
