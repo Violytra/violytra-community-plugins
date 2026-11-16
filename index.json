@@ -7,9 +7,6 @@
                                                      "name":  "Themes",
                                                      "description":  "Color themes, font packs, icon packs, and emoji packs.",
                                                      "author":  "Violytra",
-                                                     "contributors":  [
-                                                                          "Palm \u003c629368283354628116\u003e (https://github.com/sponsors/PalmDevs \"Donations\") (https://palmdevs.me \"Website\") (https://github.com/PalmDevs \"GitHub\")"
-                                                                      ],
                                                      "icon":  "PaintPaletteIcon",
                                                      "channels":  {
                                                                       "latest":  "1.0.1"
@@ -65,11 +62,6 @@
                                                 "name":  "Themes API",
                                                 "description":  "Lets theme plugins provide color themes, font packs, icon packs, and emoji packs.",
                                                 "author":  "Violytra",
-                                                "contributors":  [
-                                                                     "Palm \u003c629368283354628116\u003e (https://github.com/sponsors/PalmDevs \"Donations\") (https://palmdevs.me \"Website\") (https://github.com/PalmDevs \"GitHub\")",
-                                                                     "Ushie \u003c399862294143696897\u003e (https://github.com/Ushie \"GitHub\")",
-                                                                     "cocobo1 \u003c767650984175992833\u003e (https://github.com/C0C0B01 \"GitHub\")"
-                                                                 ],
                                                 "icon":  "PaintPaletteIcon",
                                                 "channels":  {
                                                                  "latest":  "1.0.2"
